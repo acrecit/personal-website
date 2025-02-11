@@ -8,10 +8,19 @@ export default {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        serif: ['PT Serif', 'serif'],
+        decorative: ['Cinzel Decorative', 'cursive'],
+        mono: ['Space Mono', 'monospace'],
+        fraktur: ['UnifrakturMaguntia', 'cursive']
       },
+      colors: {
+        background: 'var(--bg-color)',
+        foreground: 'var(--text-color)',
+        accent: 'var(--accent)',
+        'accent-dim': 'var(--accent-dim)',
+        'text-dim': 'var(--text-dim)'
+      }
     },
   },
   plugins: [],
