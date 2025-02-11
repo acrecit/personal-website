@@ -2,12 +2,10 @@ export default function BookLayout({
     children,
     title,
     author,
-    cover,
   }: {
     children: React.ReactNode
     title: string
     author: string
-    cover?: string
   }) {
     return (
       <article className="max-w-3xl mx-auto px-8 py-12">

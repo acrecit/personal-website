@@ -6,13 +6,13 @@ export interface Book {
   why?: string
 }
 
-export interface CurrentReading extends Array<Book> {}
+export type CurrentReading = Book[]
 
 export interface RecommendedCategory {
   name: string
   books: Book[]
 }
 
-export interface RecommendedReading extends Array<RecommendedCategory> {}
+export type RecommendedReading = RecommendedCategory[]
 
 export type YamlData = CurrentReading | RecommendedReading 
