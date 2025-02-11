@@ -3,7 +3,6 @@ import { notFound } from 'next/navigation'
 import BookLayout from '@/layouts/BookLayout'
 import { CurrentReading, RecommendedReading } from '@/types/reading'
 import { getBookContent } from '@/lib/books'
-import { Params } from 'next/dist/shared/lib/router/utils/route-matcher'
 
 export async function generateStaticParams() {
   const currentReading = getYamlData('current_reading.yaml') as CurrentReading
@@ -19,13 +18,7 @@ export async function generateStaticParams() {
   }))
 }
 
-type PageParams = {
-  params: Params & {
-    slug: string
-  }
-}
-
-export default async function BookPage({ params }: PageParams) {
+export default async function BookPage({ params }: { params: { slug: string } }) {
   const currentReading = getYamlData('current_reading.yaml') as CurrentReading
   const recommendedReading = getYamlData('recommended_reading.yaml') as RecommendedReading
   
@@ -52,7 +45,6 @@ export default async function BookPage({ params }: PageParams) {
     <BookLayout
       title={bookData.title}
       author={bookData.author}
-      cover={`/books/${params.slug}/cover.jpg`}
     >
       <div 
         className="post-content"
