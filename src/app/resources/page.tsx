@@ -69,7 +69,7 @@ export default async function ResourcesPage() {
         </p>
         <p>
           For entertainment, I have a home media server running <a href="https://jellyfin.org" className="text-accent hover:text-accent-dim">Jellyfin</a>. 
-          If you haven't used it before, it's a great way to organize your media and stream it to your devices whilst not being beholden to 
+          If you haven&apos;t used it before, it&apos;s a great way to organize your media and stream it to your devices whilst not being beholden to 
           the whims of streaming services.
         </p>
       </section>
