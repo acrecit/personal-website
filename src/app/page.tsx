@@ -84,11 +84,11 @@ export default async function Home() {
           <h3 className="text-2xl font-bold mb-4">CONTACT</h3>
           <p className="mb-2">You can reach me through:</p>
           <div className="flex gap-4 flex-wrap">
-            <a href="mailto:acreciti@acreciti.org" className="text-accent hover:text-accent-dim">Email</a>
+            <a href="mailto:acreciti@acreciti.org" className="text-accent hover:text-accent-dim">Email(preferred)</a>
             <a href="https://github.com/acrecit" className="text-accent hover:text-accent-dim">GitHub</a>
-            <a href="https://x.com/acreciti" className="text-accent hover:text-accent-dim">X/Twitter</a>
+            <a href="https://x.com/acreciti" className="text-accent hover:text-accent-dim">X</a>
             <a href="https://t.me/acreciti" className="text-accent hover:text-accent-dim">Telegram</a>
-            <a href="https://discord.com/users/acreciti" className="text-accent hover:text-accent-dim">Discord</a>
+            <a href="https://discord.gg/gfyFXyD2nv" className="text-accent hover:text-accent-dim">my discord server</a>
           </div>
         </div>
       </div>
