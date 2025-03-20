@@ -88,6 +88,7 @@ export default async function Home() {
             <a href="https://github.com/acrecit" className="text-accent hover:text-accent-dim">GitHub</a>
             <a href="https://x.com/acreciti" className="text-accent hover:text-accent-dim">X</a>
             <a href="https://t.me/acreciti" className="text-accent hover:text-accent-dim">Telegram</a>
+            <a href="https://discord.gg/DQ2jQcYn" className="text-accent hover:text-accent-dim">Link to Discord for my Minecraft Server!</a>
             {/* <a href="https://discord.gg/gfyFXyD2nv" className="text-accent hover:text-accent-dim">my discord server</a> */}
           </div>
         </div>
