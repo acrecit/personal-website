@@ -45,7 +45,7 @@ export default async function ResourcesPage() {
 
       <section className="mb-12">
         <h2 className="text-2xl font-bold mb-4">BROWSERS</h2>
-        <p className="mb-4">I&apos;ve used a few other browsers. Brave and Vivaldi are very nice.</p>
+        <p className="mb-4">I currently use Brave Browser, not because I like it, but becquse there are no better options. I&apos;ve used a few other browsers. Firefox and Vivaldi are very nice.</p>
         <p className="mb-4">I also use Tor Browser for privacy when I need it.</p>
         <div className="flex gap-4 mb-4">
           <a href="https://www.torproject.org" className="hover:opacity-80">
